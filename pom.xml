@@ -21,11 +21,6 @@
                             <addClasspath>true</addClasspath>
                             <mainClass>ru.babudzhi.HelloMaven</mainClass>
                         </manifest>
-                        <!--<manifestEntries>
-                            <mode>development</mode>
-                            <url>${project.url}</url>
-                            <key>value</key>
-                        </manifestEntries>-->
                     </archive>
                 </configuration>
 
