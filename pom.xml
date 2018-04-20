@@ -19,7 +19,7 @@
                         <index>true</index>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>ru.babudzhi.mavHello</mainClass>
+                            <mainClass>ru.babudzhi.HelloMaven</mainClass>
                         </manifest>
                         <!--<manifestEntries>
                             <mode>development</mode>
