@@ -9,6 +9,25 @@
     <artifactId>Hello</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <versionProp>3.5</versionProp>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>profile1</id>
+            <properties>
+                <versionProp>3.6</versionProp>
+            </properties>
+        </profile>
+        <profile>
+            <id>profile2</id>
+            <properties>
+                <versionProp>3.6.1</versionProp>
+            </properties>
+        </profile>
+    </profiles>
+
     <build>
         <plugins>
             <plugin>
@@ -28,6 +47,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>${versionProp}</version>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
